@@ -1,3 +1,4 @@
+
 /**
  * jQuery || Zepto Parallax Plugin
  * @author Matthew Wagerfield - @wagerfield

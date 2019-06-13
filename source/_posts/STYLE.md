@@ -4,8 +4,7 @@ date: 2019-06-10 12:59:19
 categories: [TEST2]
 tags: [test_tag,test_tag2]
 ---
-
-
+abc.b
 # 标题测试区
 
 ## 二级标题
@@ -15,6 +14,9 @@ tags: [test_tag,test_tag2]
 取消四级标题
 
 ---
+
+
+
 
 # 样式测试区
 **粗体**
@@ -29,12 +31,14 @@ tags: [test_tag,test_tag2]
 
 取消粗体
 
+
+
 ---
 
 # 图片和链接
 *PS VSCode中本地图片加载不出来*
 
-![图片](/home/ns/Pictures/blog_img/qrwc.png)
+![图片](http://zero.cn-bj.ufileos.com/img-1560297747870.jpg)
 
 [百度](https://baidu.com)
 
@@ -60,8 +64,44 @@ tags: [test_tag,test_tag2]
 ---
 
 # 块
+Markdown原生块：
 
 > If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.
+
+阳光：  
+
+<span class="highlevel-style sunshine">
+    <section class="top"></section>
+    <span class="sunshine-text">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span>
+    <section class="bottom"></section>
+</span>
+
+清爽：
+
+<span class="highlevel-style simple">
+<section class="top"></section><span class="simple-text">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span><section class="bottom"></section></span>
+
+绿色：
+
+<span class="highlevel-style green">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span>
+
+序号：
+
+<span class="highlevel-style num">
+<section class="num-first"><section style="width:15%;"><section class="num-second"><section class="num-third"><p><strong><span class="num_num" style="color: #ffffff;">01</span></strong></p></section></section></section><section class="num-fourth"><section style="margin-left:5px;"><section class="num-fifth"><section style="margin-top: -14px;"><section class="num-sixth"><p><span class="num_title">TEST1</span></p></section></section></section></section><section style="margin:5px 0px;"><p><span style="font-size: 14px;">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span></p></section></section></section>
+
+<span class="highlevel-style num">
+<section class="num-first"><section style="width:15%;"><section class="num-second"><section class="num-third"><p><strong><span class="num_num" style="color: #ffffff;">02</span></strong></p></section></section></section><section class="num-fourth"><section style="margin-left:5px;"><section class="num-fifth"><section style="margin-top: -14px;"><section class="num-sixth"><p><span class="num_title">TEST2</span></p></section></section></section></section><section style="margin:5px 0px;"><p><span style="font-size: 14px;">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span></p></section></section></section>
+
+
+<span class="highlevel-style num">
+<section class="num-first"><section style="width:15%;"><section class="num-second"><section class="num-third"><p><strong><span class="num_num" style="color: #ffffff;">02</span></strong></p></section></section></section><section class="num-fourth"><section style="margin-left:5px;"><section class="num-fifth"><section style="margin-top: -14px;"><section class="num-sixth"><p><span class="num_title">TEST2</span></p></section></section></section></section><section style="margin:5px 0px;"><p><span style="font-size: 14px;">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span></p></section></section></section>
+
+<span class="highlevel-style num">
+<section class="num-first"><section style="width:15%;"><section class="num-second"><section class="num-third"><p><strong><span class="num_num" style="color: #ffffff;">02</span></strong></p></section></section></section><section class="num-fourth"><section style="margin-left:5px;"><section class="num-fifth"><section style="margin-top: -14px;"><section class="num-sixth"><p><span class="num_title">TEST2</span></p></section></section></section></section><section style="margin:5px 0px;"><p><span style="font-size: 14px;">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span></p></section></section></section>
+
+<span class="highlevel-style num">
+<section class="num-first"><section style="width:15%;"><section class="num-second"><section class="num-third"><p><strong><span class="num_num" style="color: #ffffff;">02</span></strong></p></section></section></section><section class="num-fourth"><section style="margin-left:5px;"><section class="num-fifth"><section style="margin-top: -14px;"><section class="num-sixth"><p><span class="num_title">TEST2</span></p></section></section></section></section><section style="margin:5px 0px;"><p><span style="font-size: 14px;">If you love someone,you must let him know.Maybe you‘d get no answer,but at least you have tied and won‘t regret.</span></p></section></section></section>
 
 *PS VSCode中不支持Latex显示*
 
